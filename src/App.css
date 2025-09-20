@@ -1,0 +1,57 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.year-selector {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.year-selector select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.data-display {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-display h2 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  text-align: center;
+}
+
+.info a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
