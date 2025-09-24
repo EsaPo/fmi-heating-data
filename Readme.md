@@ -1,4 +1,4 @@
-### FMI heating data
+### FMI heating data / FMI astepäivälukujen nouto
 
 With this app you can fetch degree days data from Finnish Meteorological Institute's open data service. 
 
