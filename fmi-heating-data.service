@@ -1,0 +1,14 @@
+[Unit]
+Description=FMI Heating Data Service
+After=network.target
+
+[Service]
+WorkingDirectory=/path/to/folder/fmi-heating-data
+ExecStart=/usr/bin/npm run dev
+Restart=always
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
